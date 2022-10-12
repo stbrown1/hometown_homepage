@@ -1,0 +1,121 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+    border-radius: 50px;
+}
+
+h1, h2 {
+    margin-top: 0;
+    display: inline-flex;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+
+.header {
+    background-image: url(images/bham_skyline.jpg);
+    background-size: cover;
+    height: 500px;
+    margin-top: 0;
+    padding-top: 10px;
+    text-shadow: 1px 1px #5e5e5e;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'Trirong', serif;
+    font-weight: bold;
+    box-shadow: 3px 2px 5px #000;
+    max-width: 380px;
+}
+
+.header h2 {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 50px;
+    box-shadow: 3px 2px 5px #000;
+    max-width: 1100px;
+}
+
+.activities {
+    background-color: #404E7C;
+    color: #fff;
+    font-family: 'Trirong', serif;
+    text-align: center;
+    padding: 30px 40px;
+}
+
+.activities h2 {
+    margin-top: 10px;
+    padding-bottom: 40px;
+    text-shadow: 1px 1px #000;
+    background-color: transparent;
+    font-size: 32px;
+}
+
+.activity_items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity_items img {
+    margin-bottom: 20px;
+    box-shadow: 3px 2px 5px #000;
+}
+
+.activity_information {
+    max-width: 300px;
+}
+
+.guide {
+    background-color: #71B48D;
+    font-family: 'Trirong', serif;
+    display: flex;
+    justify-content: center;
+}
+
+.guide_card {
+    background-color: #5e5e5e;
+    border-radius: 25px;
+    box-shadow: 0px 10px 5px #000;
+    max-width: 400px;
+    margin: 50px 160px;
+    display: flex;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+.guide_picture {
+    margin: 25px 5px 25px 15px;
+}
+
+.guide_picture img {
+    border-radius: 10px;
+}
+
+.guide_text {
+    text-align: center;
+    margin: 50px 12px 30px 0px;
+}
+
+.guide_text h4 {
+    font-family: 'Trirong:wght@600', serif;
+    font-size: 18px;
+}
